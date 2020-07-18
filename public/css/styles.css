@@ -1,0 +1,76 @@
+
+body {
+  background-color: #E8ECEF;
+}
+
+.bar {
+  padding: 30px;
+}
+
+.centered {
+    padding-top: 150px;
+    text-align: center;
+}
+
+.secret-text {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  background-color: #000;
+}
+
+.aboutCentered {
+    padding-top: 130px;
+    text-align: center;
+}
+
+.endCentered {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+/* Style all font awesome icons */
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  width: 65px;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  width: 65px;
+}
+
+/* LinkedIn */
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  width: 65px;
+}
+
+/*Instagram*/
+.fa-instagram {
+  background: #f09433;
+  color: white;
+  width: 65px;
+}

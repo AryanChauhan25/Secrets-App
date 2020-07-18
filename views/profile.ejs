@@ -1,0 +1,21 @@
+<%- include('partials/header2') %>
+
+<div class="jumbotron text-center">
+  <div class="container">
+    <i class="fas fa-key fa-6x" style="display: flex; align-items: center; justify-content: center;"></i>
+    <h1 class="display-3 text-center">My Secret!</h1>
+    
+    <form action="/profile" method="POST">
+        <% usersWithSecrets.forEach(function(content) { %>
+            <p class="secret-text"><%=content%><p>
+            <button class="btn btn-danger btn-sm" name="button" type="submit" value="<%=content%>">Delete</button>
+        <% }) %>
+    </form>
+    <hr>
+    
+    <a class="btn btn-light btn-lg" href="/logout" role="button">Log Out</a>
+    <a class="btn btn-dark btn-lg" href="/submit" role="button">Submit a Secret</a>
+  </div>
+</div>
+
+<%- include('partials/footer') %>
